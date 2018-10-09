@@ -130,3 +130,16 @@ add_action('after_setup_theme', function () {
         return "<?= " . __NAMESPACE__ . "\\asset_path({$asset}); ?>";
     });
 });
+
+// Add ACF Options Page
+add_action('acf/init', function() {
+    if( function_exists('acf_add_options_page') ) {
+        $option_page = acf_add_options_page(array(
+            'page_title'    => 'Theme General Settings',
+            'menu_title'    => 'Theme Settings',
+            'menu_slug'     => 'theme-general-settings',
+            'capability'    => 'edit_posts',
+            'redirect'  => false
+        ));
+    }
+});
