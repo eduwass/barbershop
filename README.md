@@ -1,6 +1,6 @@
 # Description and requirements
 
-Repo contains codebase for [Barbershop](#) WordPress website.
+Repo contains codebase for [BarberShop](http://95.179.178.170/) WordPress website.
 
 Also serves as a ready to use development environment (start-up and use).
 
@@ -42,6 +42,6 @@ development instructions in the [README](https://github.com/eduwass/barbershop/b
 
 # Deployment
 
-- I have a copy of this repo hosted on a [Vultr](http://vultr.com) VPS as a staging environment
+- I have a copy of this repo hosted on a [Vultr](http://vultr.com) VPS as a staging environment here: http://95.179.178.170/
 - Code changes can be pushed/pulled to the server directly via SSH Git
 - For database changes I'm using: [wp-sync-db](https://github.com/wp-sync-db/wp-sync-db)
