@@ -13,6 +13,9 @@
 
 /** Import theme styles */
 @import "common/global";
+@import "common/fonts";
+@import "common/typography";
+
 @import "components/buttons";
 @import "components/comments";
 @import "components/forms";

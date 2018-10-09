@@ -14692,6 +14692,121 @@ a.text-dark:focus {
 
 /** Import theme styles */
 
+@font-face {
+  font-family: 'Alternate-Gothic';
+  src: url(/wp-content/themes/barbershop/dist/fonts/Alternate-Gothic.ttf);
+}
+
+@font-face {
+  font-family: 'ChaparralPro-Bold';
+  src: url(/wp-content/themes/barbershop/dist/fonts/ChaparralPro-Bold.otf);
+}
+
+@font-face {
+  font-family: 'ChaparralPro-BoldIt';
+  src: url(/wp-content/themes/barbershop/dist/fonts/ChaparralPro-BoldIt.otf);
+}
+
+@font-face {
+  font-family: 'ChaparralPro-Italic';
+  src: url(/wp-content/themes/barbershop/dist/fonts/ChaparralPro-Italic.otf);
+}
+
+@font-face {
+  font-family: 'ChaparralPro-LightIt';
+  src: url(/wp-content/themes/barbershop/dist/fonts/ChaparralPro-LightIt.otf);
+}
+
+@font-face {
+  font-family: 'ChaparralPro-Regular';
+  src: url(/wp-content/themes/barbershop/dist/fonts/ChaparralPro-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url(/wp-content/themes/barbershop/dist/fonts/Intro.otf);
+}
+
+/* line 2, resources/assets/styles/common/_typography.scss */
+
+h1 {
+  font-family: 'Intro', sans-serif;
+  font-size: 24px;
+  color: #000000;
+  letter-spacing: 1.5px;
+}
+
+/* line 9, resources/assets/styles/common/_typography.scss */
+
+h2 {
+  font-family: 'Alternate-Gothic', sans-serif;
+  font-size: 24px;
+  color: #000000;
+  letter-spacing: 1.5px;
+}
+
+/* line 16, resources/assets/styles/common/_typography.scss */
+
+h3 {
+  font-family: 'Alternate-Gothic', sans-serif;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 1.12px;
+  line-height: 20px;
+}
+
+/* line 24, resources/assets/styles/common/_typography.scss */
+
+h4 {
+  font-family: 'Alternate-Gothic', sans-serif;
+  font-size: 16px;
+}
+
+/* line 29, resources/assets/styles/common/_typography.scss */
+
+h5 {
+  font-family: 'Alternate-Gothic', sans-serif;
+  font-size: 14px;
+}
+
+/* line 34, resources/assets/styles/common/_typography.scss */
+
+h6 {
+  font-family: 'Alternate-Gothic', sans-serif;
+  font-size: 12px;
+}
+
+/* line 40, resources/assets/styles/common/_typography.scss */
+
+body,
+p {
+  font-family: 'ChaparralPro-Regular', sans-serif;
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+/* line 48, resources/assets/styles/common/_typography.scss */
+
+p.p2 {
+  font-family: 'ChaparralPro-Regular', sans-serif;
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0.88px;
+  line-height: 20px;
+}
+
+/* line 56, resources/assets/styles/common/_typography.scss */
+
+p.p3 {
+  font-family: 'ChaparralPro-Regular', sans-serif;
+  font-size: 10px;
+  color: #000000;
+  letter-spacing: 0.62px;
+  line-height: 20px;
+}
+
 /* line 5, resources/assets/styles/components/_comments.scss */
 
 .comment-list ol {
