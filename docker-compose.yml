@@ -17,18 +17,6 @@ services:
     volumes:
     - "./wp-content:/var/www/html/wp-content"
 
-  phpmyadmin:
-    image: phpmyadmin/phpmyadmin:4.6.4-1
-    links:
-      - db:db
-    ports:
-      - 8080:80
-    environment:
-      MYSQL_USERNAME: wordpress
-      MYSQL_PASSWORD: wordpress
-      MYSQL_ROOT_PASSWORD: somewordpress
-      PMA_PORT: 3306
-
   db:
     image: mysql:5.7
     command: mysqld --sql_mode="" --max_allowed_packet=9999999999999999
