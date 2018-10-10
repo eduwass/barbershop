@@ -5,3 +5,9 @@
 .banner .nav a {
   @extend .nav-link;
 }
+
+.header-left, .header-right{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
