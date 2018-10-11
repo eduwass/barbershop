@@ -146,3 +146,15 @@ add_action('acf/init', function() {
         ));
     }
 });
+
+// Hide WP Editor in Homepage template
+add_action( 'admin_init', function() {
+  if(isset($_GET['post'])||isset($_POST['post_ID'])){
+    $post_id = isset($_GET['post']) ? $_GET['post'] : $_POST['post_ID'] ;
+    if( !isset( $post_id ) ) return;
+    $template_file = get_post_meta($post_id, '_wp_page_template', true);
+    if($template_file == 'views/template-custom.blade.php'){ // edit the template name
+        remove_post_type_support('page', 'editor');
+    }
+  }
+});

@@ -14642,23 +14642,24 @@ body {
 .main.jumbotron {
   background: white;
   border-radius: 0;
+  margin-bottom: 0;
 }
 
-/* line 21, resources/assets/styles/common/_global.scss */
+/* line 22, resources/assets/styles/common/_global.scss */
 
 main .p1 {
   max-width: 660px;
   margin: auto;
 }
 
-/* line 25, resources/assets/styles/common/_global.scss */
+/* line 26, resources/assets/styles/common/_global.scss */
 
 main h1 {
   margin-bottom: 27px;
 }
 
 @media (max-width: 991.98px) {
-  /* line 30, resources/assets/styles/common/_global.scss */
+  /* line 31, resources/assets/styles/common/_global.scss */
 
   .hidden-mobile {
     display: none !important;
@@ -14666,7 +14667,7 @@ main h1 {
 }
 
 @media (min-width: 992px) {
-  /* line 36, resources/assets/styles/common/_global.scss */
+  /* line 37, resources/assets/styles/common/_global.scss */
 
   .hidden-desktop {
     display: none !important;
@@ -15173,12 +15174,109 @@ header.banner .intro .cta .search-form .search-submit,
 footer {
   background: #000;
   color: #fff;
+  padding-top: 56px;
+}
+
+/* line 5, resources/assets/styles/layouts/_footer.scss */
+
+footer p {
+  color: #fff;
+}
+
+/* line 8, resources/assets/styles/layouts/_footer.scss */
+
+footer .footer-icon-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* line 12, resources/assets/styles/layouts/_footer.scss */
+
+footer .footer-icon {
+  width: 60px;
+  height: 54px;
+}
+
+/* line 16, resources/assets/styles/layouts/_footer.scss */
+
+footer span.title {
+  opacity: 0.6;
+  font-family: 'ChaparralPro-Italic', sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 20px;
+  display: block;
+  padding-bottom: 12px;
+}
+
+/* line 26, resources/assets/styles/layouts/_footer.scss */
+
+footer .menu-item a {
+  color: white;
+}
+
+/* line 30, resources/assets/styles/layouts/_footer.scss */
+
+footer li {
+  display: block;
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  line-height: 36px;
+}
+
+/* line 39, resources/assets/styles/layouts/_footer.scss */
+
+footer li {
+  width: 100%;
+}
+
+/* line 43, resources/assets/styles/layouts/_footer.scss */
+
+footer .current-menu-item {
+  font-weight: 900;
+}
+
+@media (max-width: 991.98px) {
+  /* line 47, resources/assets/styles/layouts/_footer.scss */
+
+  footer .col-12,
+  footer .col-4 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  /* line 55, resources/assets/styles/layouts/_footer.scss */
+
+  footer .col-4 {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
 }
 
 /* line 1, resources/assets/styles/layouts/_tinymce.scss */
 
 body#tinymce {
-  margin: 12px !important;
+  background: white;
 }
 
 
