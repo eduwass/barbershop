@@ -15036,6 +15036,9 @@ header.banner .menu .brand .sub-logo {
 
 header.banner .mobile-menu {
   pointer-events: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   opacity: 0;
   -webkit-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
@@ -15062,13 +15065,10 @@ header.banner .mobile-menu {
   color: #fff;
 }
 
-/* line 99, resources/assets/styles/layouts/_header.scss */
+/* line 100, resources/assets/styles/layouts/_header.scss */
 
 header.banner .mobile-menu.visible {
   opacity: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   pointer-events: initial;
 }
 

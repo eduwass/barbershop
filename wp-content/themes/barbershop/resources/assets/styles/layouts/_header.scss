@@ -94,11 +94,11 @@ header.banner{
 
   .mobile-menu{
     pointer-events: none;
+    display: flex;
     opacity: 0;
     transition: all 0.5s ease-in-out;
     &.visible{
       opacity: 1;
-      display: flex;
       pointer-events: initial;
     }
     position: absolute;
