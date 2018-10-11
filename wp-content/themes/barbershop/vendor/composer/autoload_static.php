@@ -9,6 +9,7 @@ class ComposerStaticInit37d98d2ab27e094d03df638351bb6ed1
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
+        '0f0b5ccc1239edeab469d29fee6d51ad' => __DIR__ . '/..' . '/roots/sage-woocommerce/src/woocommerce.php',
         'b50336562d531777993d90ca775abd88' => __DIR__ . '/..' . '/soberwp/controller/controller.php',
     );
 
