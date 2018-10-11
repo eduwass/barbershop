@@ -11,5 +11,9 @@
       <h2 class="subheading">{{ $subheading }}</h2>
     @endif
 
+    @if(get_field('show_cta'))
+      @include('partials.header-intro-cta')
+    @endif
+
   </div>
 </div>

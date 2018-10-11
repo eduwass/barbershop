@@ -2,13 +2,16 @@ header.banner{
   
 
   display: flex;
-  align-items: center;
   background-color: white;
   min-height: 200px;
 
-  &#banner-bg{
+  &.banner-bg{
     height: 404px;
     background-size: cover;
+  }
+
+  &.show-cta{
+    height: 600px;
   }
 
   &.white-text{
@@ -19,11 +22,15 @@ header.banner{
   }
 
   
-  .menu{  
+  .menu{
+
+    margin-top: 40px;
+    padding-bottom: 10px;
+
     .header-left, .header-right{
       display: flex;
       justify-content: space-around;
-      align-items: center;
+      padding-top: 17px;
     }
 
     .header-center{
@@ -56,7 +63,7 @@ header.banner{
   }
 
   .intro{
-    margin-top: 70px;
+    margin-top: 60px;
     .heading{
       font-family: 'Intro', sans-serif;
       font-size: 44px;
@@ -74,6 +81,18 @@ header.banner{
       line-height: 39px;
       max-width: 531px;
       margin: auto;
+      margin-top: 15px;
+    }
+    .cta{
+      margin: auto;
+      margin-top: 36px;
+      display: flex;
+      justify-content: center;
+      .btn{
+        margin: auto;
+        width: 317px;
+        max-width: 100%;
+      }
     }
   }
 
