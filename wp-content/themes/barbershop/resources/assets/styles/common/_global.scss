@@ -20,3 +20,15 @@ main{
     margin-bottom: 27px;
   }
 }
+
+.hidden-mobile{
+  @include media-breakpoint-down(md) {
+    display: none !important;
+  }
+}
+
+.hidden-desktop{
+  @include media-breakpoint-up(lg) {
+    display: none !important;
+  }
+}

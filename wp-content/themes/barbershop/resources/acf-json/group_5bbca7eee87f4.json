@@ -72,8 +72,15 @@
             "name": "sub_logo",
             "type": "image",
             "instructions": "Only on Homepage",
-            "required": 0,
-            "conditional_logic": 0,
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5bbca80ca14c2",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
             "wrapper": {
                 "width": "",
                 "class": "",
@@ -112,7 +119,7 @@
             "name": "footer_icon",
             "type": "image",
             "instructions": "",
-            "required": 0,
+            "required": 1,
             "conditional_logic": 0,
             "wrapper": {
                 "width": "",
@@ -143,10 +150,10 @@
                 "class": "",
                 "id": ""
             },
+            "default_value": "",
             "tabs": "all",
             "toolbar": "full",
-            "media_upload": 1,
-            "default_value": "",
+            "media_upload": 0,
             "delay": 0
         },
         {
@@ -155,7 +162,7 @@
             "name": "social_links",
             "type": "repeater",
             "instructions": "",
-            "required": 0,
+            "required": 1,
             "conditional_logic": 0,
             "wrapper": {
                 "width": "",
@@ -174,7 +181,7 @@
                     "name": "title",
                     "type": "text",
                     "instructions": "",
-                    "required": 0,
+                    "required": 1,
                     "conditional_logic": 0,
                     "wrapper": {
                         "width": "",
@@ -226,5 +233,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1539221766
+    "modified": 1539233203
 }

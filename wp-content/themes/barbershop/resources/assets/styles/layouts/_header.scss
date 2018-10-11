@@ -5,13 +5,21 @@ header.banner{
   background-color: white;
   min-height: 200px;
 
+  @include media-breakpoint-down(md) {
+    padding-bottom: 40px;
+  }
+
   &.banner-bg{
-    height: 404px;
+    @include media-breakpoint-up(lg) {
+      height: 404px;
+    }
     background-size: cover;
   }
 
   &.show-cta{
-    height: 600px;
+    @include media-breakpoint-up(lg) {
+      height: 600px;
+    }
   }
 
   &.white-text{
@@ -50,9 +58,16 @@ header.banner{
     .brand{
       display: flex;
       flex-flow: column;
+      @include media-breakpoint-down(md) {
+        max-width: 70vw;
+        margin: auto;
+      }
       .main-logo{
         width: 395px;
         margin: auto;
+      }
+      .mobile-logo{
+        width: auto;
       }
       .sub-logo{
         padding-top: 17px;
@@ -64,6 +79,9 @@ header.banner{
 
   .intro{
     margin-top: 60px;
+    @include media-breakpoint-down(md) {
+      margin-top: 30px;
+    }
     .heading{
       font-family: 'Intro', sans-serif;
       font-size: 44px;
@@ -72,6 +90,10 @@ header.banner{
       line-height: 60px;
       max-width: 933px;
       margin: auto;
+      @include media-breakpoint-down(md) {
+        font-size: 32px;
+        line-height: 40px;
+      }
     }
     .subheading{
       font-family: 'ChaparralPro-Regular', sans-serif;
