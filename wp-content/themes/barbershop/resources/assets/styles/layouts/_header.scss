@@ -1,10 +1,8 @@
 header.banner{
-  
 
   display: flex;
   background-color: white;
   min-height: 200px;
-
   @include media-breakpoint-down(md) {
     padding-bottom: 40px;
   }
@@ -14,6 +12,7 @@ header.banner{
       height: 404px;
     }
     background-size: cover;
+    background-position: center;
   }
 
   &.show-cta{
@@ -24,16 +23,28 @@ header.banner{
 
   &.white-text{
     .brand, .menu-item,
-    .intro .heading, .intro .subheading{
+    .intro .heading, .intro .subheading,
+    .hamburger{
       filter: invert(1);
     }
   }
 
-  
   .menu{
 
     margin-top: 40px;
     padding-bottom: 10px;
+    z-index: 2;
+    position: relative;
+    
+    .hamburger{
+      position: absolute;
+      width: 32px;
+      height: auto;
+      left: 2.5%;
+      margin-top: 8px;
+      cursor: pointer;
+      z-index: 3;
+    }
 
     .header-left, .header-right{
       display: flex;
@@ -62,6 +73,10 @@ header.banner{
         max-width: 70vw;
         margin: auto;
       }
+      @include media-breakpoint-down(sm){
+        left: 2.5% !important;
+        position: relative;
+      }
       .main-logo{
         width: 395px;
         margin: auto;
@@ -74,6 +89,42 @@ header.banner{
         width: 272px;
         margin: auto;
       }
+    }
+  }
+
+  .mobile-menu{
+    pointer-events: none;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    &.visible{
+      opacity: 1;
+      display: flex;
+      pointer-events: initial;
+    }
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    min-height: 100%;
+    min-height: 600px;
+    background: $black;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    color: $white;
+    ul{
+      width: 100vw;
+    }
+    li, li a{
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    .menu-item{
+      font-size: 2rem;
+      padding: 3vh 0;
     }
   }
 

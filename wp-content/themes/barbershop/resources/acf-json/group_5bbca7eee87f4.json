@@ -24,7 +24,7 @@
             "name": "main_logo",
             "type": "image",
             "instructions": "",
-            "required": 0,
+            "required": 1,
             "conditional_logic": 0,
             "wrapper": {
                 "width": "50",
@@ -44,11 +44,11 @@
         },
         {
             "key": "field_5bbea5897b9bb",
-            "label": "Mobile Logo",
-            "name": "mobile_logo",
+            "label": "Hamburger Logo",
+            "name": "hamburger_logo",
             "type": "image",
             "instructions": "",
-            "required": 0,
+            "required": 1,
             "conditional_logic": 0,
             "wrapper": {
                 "width": "50",
@@ -56,7 +56,7 @@
                 "id": ""
             },
             "return_format": "array",
-            "preview_size": "full",
+            "preview_size": "thumbnail",
             "library": "all",
             "min_width": "",
             "min_height": "",
@@ -143,7 +143,7 @@
             "name": "footer_contact_text",
             "type": "wysiwyg",
             "instructions": "",
-            "required": 0,
+            "required": 1,
             "conditional_logic": 0,
             "wrapper": {
                 "width": "",
@@ -233,5 +233,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1539233203
+    "modified": 1539234408
 }

@@ -89,7 +89,7 @@
             "name": "show_cta",
             "type": "true_false",
             "instructions": "",
-            "required": 1,
+            "required": 0,
             "conditional_logic": 0,
             "wrapper": {
                 "width": "",
@@ -106,33 +106,6 @@
             "key": "field_5bbe199d4e61d",
             "label": "CTA Label",
             "name": "cta_label",
-            "type": "text",
-            "instructions": "",
-            "required": 1,
-            "conditional_logic": [
-                [
-                    {
-                        "field": "field_5bbe18354e61c",
-                        "operator": "==",
-                        "value": "1"
-                    }
-                ]
-            ],
-            "wrapper": {
-                "width": "50",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
-            "key": "field_5bbed57e40668",
-            "label": "CTA Label (copy)",
-            "name": "cta_label_copy",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -203,5 +176,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1539233165
+    "modified": 1539235278
 }
