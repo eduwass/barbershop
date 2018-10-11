@@ -3,7 +3,11 @@ $menu_locations = get_nav_menu_locations();
 $menu_items = wp_get_nav_menu_items( $menu_locations['header_menu'] );
 $header_bg = get_the_post_thumbnail_url();
 @endphp
-<header class="banner" @if($header_bg) id="banner-bg" style="background-image:url({{ $header_bg }});" @endif>
+<header 
+  class="banner 
+  @if(get_field('header_text_color')) {{ 'white-text' }} @endif" 
+  @if($header_bg) id="banner-bg" style="background-image:url({{ $header_bg }});" @endif
+>
   <div class="container">
     <div class="row">
       <div class="col-3 header-left">

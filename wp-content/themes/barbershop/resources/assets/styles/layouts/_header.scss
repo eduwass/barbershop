@@ -1,4 +1,13 @@
 header{
+  
+  background-color: white;
+  min-height: 200px;
+
+  &.white-text{
+    .brand, .menu-item{
+      filter: invert(1);
+    }
+  }
 
   .nav li {
     @extend .nav-item;
