@@ -54,7 +54,7 @@
             "placeholder": "",
             "prepend": "",
             "append": "",
-            "maxlength": ""
+            "maxlength": 70
         },
         {
             "key": "field_5bbe17c01f3d7",
@@ -73,7 +73,7 @@
             "placeholder": "",
             "prepend": "",
             "append": "",
-            "maxlength": ""
+            "maxlength": 70
         },
         {
             "key": "field_5bbe18354e61c",
@@ -166,5 +166,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1539221560
+    "modified": 1539224762
 }
