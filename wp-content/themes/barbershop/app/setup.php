@@ -47,6 +47,7 @@ add_action('after_setup_theme', function () {
         'header_menu' => __('Header Menu', 'sage'),
         'footer_menu_1' => __('Footer Menu 1', 'sage'),
         'footer_menu_2' => __('Footer Menu 2', 'sage'),
+        'footer_menu_3' => __('Footer Menu 3', 'sage'),
     ]);
 
     /**

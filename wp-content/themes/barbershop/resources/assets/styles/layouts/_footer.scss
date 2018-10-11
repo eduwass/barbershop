@@ -1,4 +1,59 @@
 footer{
-  background: black;
-  color: white;
+  background: $black;
+  color: $white;
+  padding-top: 56px;
+  p{
+    color: $white;
+  }
+  .footer-icon-container{
+    display: flex;
+    justify-content: center;
+  }
+  .footer-icon{
+    width: 60px;
+    height: 54px;
+  }
+  span.title{
+    opacity: 0.6;
+    font-family: 'ChaparralPro-Italic', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    line-height: 20px;
+    display: block;
+    padding-bottom: 12px;
+  }
+  .menu-item a {
+    color: white;
+  }
+
+  li {
+    display: block;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    line-height: 36px;
+  }
+
+
+  li {
+    width: 100%;
+  }
+
+  .current-menu-item {
+    font-weight: 900;
+  }
+  @include media-breakpoint-down(md) {
+    .col-12, .col-4 {
+        justify-content: center;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .col-4{
+      justify-content: flex-start;
+    }
+  }
 }

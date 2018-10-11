@@ -14633,31 +14633,32 @@ img {
 /* line 10, resources/assets/styles/common/_global.scss */
 
 body {
-  background: black;
+  background: #000;
+  color: #fff;
 }
 
-/* line 14, resources/assets/styles/common/_global.scss */
+/* line 15, resources/assets/styles/common/_global.scss */
 
 .main.jumbotron {
   background: white;
   border-radius: 0;
 }
 
-/* line 20, resources/assets/styles/common/_global.scss */
+/* line 21, resources/assets/styles/common/_global.scss */
 
 main .p1 {
   max-width: 660px;
   margin: auto;
 }
 
-/* line 24, resources/assets/styles/common/_global.scss */
+/* line 25, resources/assets/styles/common/_global.scss */
 
 main h1 {
   margin-bottom: 27px;
 }
 
 @media (max-width: 991.98px) {
-  /* line 29, resources/assets/styles/common/_global.scss */
+  /* line 30, resources/assets/styles/common/_global.scss */
 
   .hidden-mobile {
     display: none !important;
@@ -14665,7 +14666,7 @@ main h1 {
 }
 
 @media (min-width: 992px) {
-  /* line 35, resources/assets/styles/common/_global.scss */
+  /* line 36, resources/assets/styles/common/_global.scss */
 
   .hidden-desktop {
     display: none !important;
@@ -15170,8 +15171,8 @@ header.banner .intro .cta .search-form .search-submit,
 /* line 1, resources/assets/styles/layouts/_footer.scss */
 
 footer {
-  background: black;
-  color: white;
+  background: #000;
+  color: #fff;
 }
 
 /* line 1, resources/assets/styles/layouts/_tinymce.scss */

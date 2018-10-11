@@ -8,12 +8,14 @@ img{
 }
 
 body{
-  background: black;
+  background: $black;
+  color: $white;
 }
 
 .main.jumbotron{
   background: white;
   border-radius: 0;
+  margin-bottom: 0;
 }
 
 main{
