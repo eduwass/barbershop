@@ -11,8 +11,10 @@ li.product.type-product{
     min-height: 40px;
   }
   .p3{
-    max-width: 200px;
-    min-height: 100px;
+    @include media-breakpoint-up(lg) {
+      max-width: 200px;
+      min-height: 100px;
+    }
   }
   a:hover{
     text-decoration: none;

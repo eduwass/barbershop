@@ -177,7 +177,58 @@
 
   // Shop
   .row.shop{
-    
+
+  }
+
+  // Form
+  .row.form{
+    display: flex;
+    justify-content: center;
+    .bubble{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border: 1px solid #000000;
+      border-radius: 100px;
+      max-width: 487px;
+      width: 100%;
+      margin: auto;
+      padding: 8px 15px;
+    }
+    .p3{
+      margin-top: 10px;
+      text-align: center;
+    }
+    span[role="alert"]{
+      display: none;
+    }
+    div[role="alert"]{
+      border: 0;
+    }
+    input[type="email"]{
+      display: inline-block;
+      width: 75%;
+      border: 0;
+      font-size: 22px;
+      letter-spacing: 1.37px;
+    }
+    input[type="submit"]{
+      cursor: pointer;
+      display: inline-block;
+      width: 15%;
+      float: right;
+      background: white;
+      border: none;
+      text-transform: uppercase;
+      font-family: 'Alternate-Gothic', sans-serif;
+      font-size: 22px;
+      color: #000000;
+      letter-spacing: 1.37px;
+      line-height: 20px;
+      text-align: right;
+      padding-right: 10px;
+    }
   }
 
 }
