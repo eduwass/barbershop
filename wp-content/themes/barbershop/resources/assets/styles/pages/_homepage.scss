@@ -196,6 +196,7 @@
   .row.form{
     display: flex;
     justify-content: center;
+    margin-bottom: 25px;
     .bubble{
       display: flex;
       justify-content: center;
@@ -206,6 +207,7 @@
       max-width: 487px;
       width: 100%;
       margin: auto;
+      margin-top: 50px;
       padding: 8px 15px;
       @include media-breakpoint-down(sm) {
         max-width: 90%;
