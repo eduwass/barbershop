@@ -13,7 +13,16 @@ export default {
       slidesToShow: 4,
       slidesToScroll: 1,
       centerMode: true,
+      centerPadding: '100px',
       initialSlide: 2,
+      responsive: [
+          {
+            breakpoint: 990,
+            settings: {
+              slidesToShow: 2,
+            },
+          },
+      ],
     });
   },
 };

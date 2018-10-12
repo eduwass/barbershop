@@ -22,11 +22,21 @@
       }
     }
   }
+
   .slick{
     border: 2px solid red;
-    max-width: 100% !important;
+    max-width: 135% !important;
+    margin-left: -17.5%;
     >div{
       border: 1px solid blue;
+      img{
+        border: 1px solid green;
+      }
+    }
+    .slick-arrow, .slick-dots {
+        position: relative;
+        left: 15%;
     }
   }
+  
 }
