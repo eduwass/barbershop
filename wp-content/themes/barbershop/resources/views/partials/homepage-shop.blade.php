@@ -7,7 +7,7 @@
       while ( $loop->have_posts() ) : $loop->the_post();
       @endphp
         
-        <div class="col-12 col-lg-3 shop-item">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 shop-item">
           {!! wc_get_template_part( 'content', 'product' ) !!}
         </div>
 

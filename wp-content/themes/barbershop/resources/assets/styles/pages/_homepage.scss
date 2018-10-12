@@ -11,6 +11,9 @@
       align-items: center;
       flex-flow: column;
       text-align: center;
+      @include media-breakpoint-down(sm) {
+        margin-bottom: 40px;
+      }
       .image{
         width: 84px;
         height: 81px;
@@ -133,6 +136,11 @@
   .row.staff{
     margin-top: 60px;
     margin-bottom: 100px;
+    .staff-item{
+      @include media-breakpoint-down(sm) {
+        margin-bottom: 40px;
+      }
+    }
     .image{
       display: flex;
       justify-content: center;
@@ -177,7 +185,11 @@
 
   // Shop
   .row.shop{
-
+    .shop-item{
+      @include media-breakpoint-down(md) {
+        margin-bottom: 40px;
+      }
+    }
   }
 
   // Form
@@ -195,6 +207,9 @@
       width: 100%;
       margin: auto;
       padding: 8px 15px;
+      @include media-breakpoint-down(sm) {
+        max-width: 90%;
+      }
     }
     .p3{
       margin-top: 10px;

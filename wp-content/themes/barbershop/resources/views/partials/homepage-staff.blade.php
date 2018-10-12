@@ -1,7 +1,7 @@
 <h1>{{ get_field('staff_title') }}</h1>
 <div class="row staff">
   @foreach(get_field('staff') as $staff)
-    <div class="col-12 col-lg-4 staff-item">
+    <div class="col-12 col-sm-4 col-lg-4 staff-item">
       <div class="image">
         <img src="{{ $staff['picture']['url'] }}">
       </div>
