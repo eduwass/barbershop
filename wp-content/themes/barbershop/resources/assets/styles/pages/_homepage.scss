@@ -61,47 +61,67 @@
       }
       .slick-prev{
         position: absolute;
-        width: 60px;
-        height: 60px;
         left: 15%;
-        top: calc(50% - 60px);
         z-index: 3;
         overflow: hidden;
+        width: 60px;
+        height: 60px;
+        top: calc(50% - 60px);
+        @include media-breakpoint-down(md) {
+          width: 45px;
+          height: 45px;
+          top: calc(50% - 45px);
+        }
       }
       .slick-next{
         position: absolute;
-        width: 60px;
-        height: 60px;
         right: 15%;
-        top: calc(50% - 60px);
         z-index: 3;
         overflow: hidden;
+        width: 60px;
+        height: 60px;
+        top: calc(50% - 60px);
+        @include media-breakpoint-down(md) {
+          width: 45px;
+          height: 45px;
+          top: calc(50% - 45px);
+        }
       }
       .slick-prev:before{
         content: "";
         background-image: url('images/arrow_left.png');
-        background-size: 60px 60px;
         display: block;
-        width: 60px;
-        height: 60px;
         position: absolute;
         z-index: 3;
         cursor: pointer;
         top: 0;
         left: 0;
+        background-size: 60px 60px;
+        width: 60px;
+        height: 60px;
+        @include media-breakpoint-down(md) {
+          background-size: 45px 45px;
+          width: 45px;
+          height: 45px;
+        }
       }
       .slick-next:before{
         content: "";
         background-image: url('images/arrow_right.png');
-        background-size: 60px 60px;
         display: block;
-        width: 60px;
-        height: 60px;
         position: absolute;
         z-index: 3;
         cursor: pointer;
         top: 0;
         left: 0;
+        background-size: 60px 60px;
+        width: 60px;
+        height: 60px;
+        @include media-breakpoint-down(md) {
+          background-size: 45px 45px;
+          width: 45px;
+          height: 45px;
+        }
       }
     }
   }
