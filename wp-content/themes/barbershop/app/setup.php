@@ -158,3 +158,16 @@ add_action( 'admin_init', function() {
     }
   }
 });
+
+// WooCommerce tweaks
+
+// Customise product loop output
+remove_action( 'woocommerce_shop_loop_item_title','woocommerce_template_loop_product_title', 10 );
+add_action('woocommerce_shop_loop_item_title', function() {
+    echo '<h3 class="woocommerce-loop-product_title">' . get_the_title() . '</h3>';
+    echo '<div class="p3">';
+        the_excerpt();
+    echo '</div>';
+    wc_get_template( 'loop/price.php' );
+    wc_get_template( 'loop/add-to-cart.php' );
+}, 10 );
