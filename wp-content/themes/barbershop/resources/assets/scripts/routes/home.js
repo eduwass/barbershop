@@ -13,6 +13,7 @@ export default {
       slidesToShow: 4,
       slidesToScroll: 1,
       centerMode: true,
+      initialSlide: 2,
     });
   },
 };

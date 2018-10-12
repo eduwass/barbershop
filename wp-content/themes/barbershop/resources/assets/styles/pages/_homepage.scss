@@ -1,4 +1,7 @@
 #homepage{
+  h1{
+    text-align: center;
+  }
   .row.features{
     .feature-item{
       display: flex;
@@ -25,8 +28,5 @@
     >div{
       border: 1px solid blue;
     }
-  }
-  .container-fluid{
-    margin-bottom: 56.5%;
   }
 }

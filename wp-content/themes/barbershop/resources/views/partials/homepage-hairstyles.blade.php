@@ -5,6 +5,9 @@
       @foreach(get_field('hairstyles') as $hairstyle)
         <img src="{{ $hairstyle['url'] }}">
       @endforeach
+      @foreach(get_field('hairstyles') as $hairstyle)
+        <img src="{{ $hairstyle['url'] }}">
+      @endforeach
     </div>
   </div>
 </div>
