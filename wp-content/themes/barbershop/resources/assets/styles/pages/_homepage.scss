@@ -1,0 +1,32 @@
+#homepage{
+  .row.features{
+    .feature-item{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column;
+      text-align: center;
+      .image{
+        width: 84px;
+        height: 81px;
+        margin-bottom: 26px;
+      }
+      .title{
+        margin-bottom: 16px;
+      }
+      .text{
+        max-width: 290px;
+      }
+    }
+  }
+  .slick{
+    border: 2px solid red;
+    max-width: 100% !important;
+    >div{
+      border: 1px solid blue;
+    }
+  }
+  .container-fluid{
+    margin-bottom: 56.5%;
+  }
+}

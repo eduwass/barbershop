@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "09e750d1727dc066f099"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "7aca75440e01e6d41f7c"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -722,7 +722,7 @@
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return hotCreateRequire(40)(__webpack_require__.s = 40);
+/******/ 	return hotCreateRequire(41)(__webpack_require__.s = 41);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -2357,7 +2357,8 @@ module.exports = function(hash, moduleMap, options) {
 /* 37 */,
 /* 38 */,
 /* 39 */,
-/* 40 */
+/* 40 */,
+/* 41 */
 /*!***************************************************************************!*\
   !*** multi ./build/util/../helpers/hmr-client.js ./scripts/customizer.js ***!
   \***************************************************************************/
@@ -2366,11 +2367,11 @@ module.exports = function(hash, moduleMap, options) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /Users/eduwass/Sites/barbershop/wp-content/themes/barbershop/resources/assets/build/util/../helpers/hmr-client.js */2);
-module.exports = __webpack_require__(/*! ./scripts/customizer.js */41);
+module.exports = __webpack_require__(/*! ./scripts/customizer.js */42);
 
 
 /***/ }),
-/* 41 */
+/* 42 */
 /*!*******************************!*\
   !*** ./scripts/customizer.js ***!
   \*******************************/

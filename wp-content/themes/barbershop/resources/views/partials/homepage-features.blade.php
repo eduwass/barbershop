@@ -5,10 +5,14 @@
         <img src="{{ $feature['image']['url'] }}">
       </div>
       <div class="title">
-        {{ $feature['title'] }}
+        <h2>
+          {{ $feature['title'] }}
+        </h2>
       </div>
       <div class="text">
-        {{ $feature['text'] }}
+        <p class="p1">
+          {{ $feature['text'] }}
+        </p>
       </div>
     </div>
   @endforeach

@@ -4,6 +4,9 @@ import 'jquery';
 // Import everything from autoload
 import "./autoload/**/*"
 
+// Import Slick
+import 'slick-carousel/slick/slick';
+
 // import local dependencies
 import Router from './util/Router';
 import common from './routes/common';
