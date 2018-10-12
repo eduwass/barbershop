@@ -6,16 +6,33 @@
         <img src="{{ $staff['picture']['url'] }}">
       </div>
       <div class="name">
-        {{ $staff['name'] }}
+        <h3>
+          {{ $staff['name'] }}
+        </h3>
       </div>
       <div class="description">
-        {{ $staff['description'] }}
+        <p class="p2">
+          {{ $staff['description'] }}
+        </p>
       </div>
-      <div class="years_of_experience">
-        {{ $staff['years_of_experience'] }}
+      <div class="mini-separator">
+        <img src="{{ get_template_directory_uri() }}/../dist/images/x.png">
+      </div>
+      <div class="years-of-experience">
+        <p class="p1">
+          <i>Years of experience</i>
+        </p>
+        <p class="p1">
+          {{ $staff['years_of_experience'] }}
+        </p>
       </div>
       <div class="email">
-        {{ $staff['email'] }}
+        <p class="p1">
+          <i>Contact:</i>
+        </p>
+        <p class="p1">
+          {{ $staff['email'] }}
+        </p>
       </div>
     </div>
   @endforeach
