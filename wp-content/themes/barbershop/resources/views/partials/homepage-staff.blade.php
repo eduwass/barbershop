@@ -16,7 +16,7 @@
         </p>
       </div>
       <div class="mini-separator">
-        <img src="{{ get_template_directory_uri() }}/../dist/images/x.png">
+        <img src="@asset('images/x.png')">
       </div>
       <div class="years-of-experience">
         <p class="p1">

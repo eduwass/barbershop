@@ -35,6 +35,10 @@
       max-width: 135% !important;
       margin-left: -17.5%;
       cursor: grab;
+      button{
+        background: black;
+        border: 1px solid black;
+      }
       >div{
         img{
         }
@@ -95,7 +99,7 @@
       }
       .slick-prev:before{
         content: "";
-        background-image: url('images/arrow_left.png');
+        background-image: url('../images/arrow_left.png');
         display: block;
         position: absolute;
         z-index: 3;
@@ -113,7 +117,7 @@
       }
       .slick-next:before{
         content: "";
-        background-image: url('images/arrow_right.png');
+        background-image: url('../images/arrow_right.png');
         display: block;
         position: absolute;
         z-index: 3;

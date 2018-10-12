@@ -1,0 +1,16 @@
+{
+  "fonts/Alternate-Gothic.ttf": "fonts/Alternate-Gothic_f15974c9.ttf",
+  "fonts/ChaparralPro-Bold.otf": "fonts/ChaparralPro-Bold_b98f5b84.otf",
+  "fonts/ChaparralPro-BoldIt.otf": "fonts/ChaparralPro-BoldIt_e2e9aa0c.otf",
+  "fonts/ChaparralPro-Italic.otf": "fonts/ChaparralPro-Italic_2878392f.otf",
+  "fonts/ChaparralPro-LightIt.otf": "fonts/ChaparralPro-LightIt_53043d22.otf",
+  "fonts/ChaparralPro-Regular.otf": "fonts/ChaparralPro-Regular_7e29cc25.otf",
+  "fonts/Intro.otf": "fonts/Intro_b2f90b60.otf",
+  "images/arrow_left.png": "images/arrow_left_14d80c4e.png",
+  "images/arrow_right.png": "images/arrow_right_b1a71214.png",
+  "images/or_down.png": "images/or_down_d29729df.png",
+  "images/x.png": "images/x_746767ef.png",
+  "scripts/customizer.js": "scripts/customizer_8f143aba.js",
+  "styles/main.css": "styles/main_8f143aba.css",
+  "scripts/main.js": "scripts/main_8f143aba.js"
+}
