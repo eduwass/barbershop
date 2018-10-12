@@ -23,67 +23,85 @@
     }
   }
 
-  .slick{
-    border: 2px solid red;
-    max-width: 135% !important;
-    margin-left: -17.5%;
-    cursor: grab;
-    >div{
-      border: 1px solid blue;
-      img{
-        border: 1px solid green;
+  .row.hairstyles{
+    padding-top: 60px;
+    .slick{
+      max-width: 135% !important;
+      margin-left: -17.5%;
+      cursor: grab;
+      >div{
+        img{
+        }
       }
-    }
-    .slick-dots{
-      display: inline-block !important;
-      list-style: none;
-      >li{
-        display: inline-block;
+      .slick-dots{
+        display: flex !important;
+        list-style: none;
+        left: 15%;
+        position: relative;
+        width: 70%;
+        margin: 0;
+        padding: 0;
+        >li{
+          display: inline-flex;
+          height: 2px;
+          overflow: hidden;
+          flex-grow: 1;
+          flex-basis: 0;
+          width: auto;
+          height: 5px;
+          background: gray;
+          &.slick-active{
+            background: black;
+          }
+          button{
+            display: none;
+          }
+        }
       }
-    }
-    .slick-prev{
-      position: absolute;
-      width: 60px;
-      height: 60px;
-      left: 15%;
-      top: calc(50% - 60px);
-      z-index: 3;
-      overflow: hidden;
-    }
-    .slick-next{
-      position: absolute;
-      width: 60px;
-      height: 60px;
-      right: 15%;
-      top: calc(50% - 60px);
-      z-index: 3;
-      overflow: hidden;
-    }
-    .slick-prev:before{
-      content: "";
-      background-image: url('images/arrow_left.png');
-      background-size: 60px 60px;
-      display: block;
-      width: 60px;
-      height: 60px;
-      position: absolute;
-      z-index: 3;
-      cursor: pointer;
-      top: 0;
-      left: 0;
-    }
-    .slick-next:before{
-      content: "";
-      background-image: url('images/arrow_right.png');
-      background-size: 60px 60px;
-      display: block;
-      width: 60px;
-      height: 60px;
-      position: absolute;
-      z-index: 3;
-      cursor: pointer;
-      top: 0;
-      left: 0;
+      .slick-prev{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        left: 15%;
+        top: calc(50% - 60px);
+        z-index: 3;
+        overflow: hidden;
+      }
+      .slick-next{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        right: 15%;
+        top: calc(50% - 60px);
+        z-index: 3;
+        overflow: hidden;
+      }
+      .slick-prev:before{
+        content: "";
+        background-image: url('images/arrow_left.png');
+        background-size: 60px 60px;
+        display: block;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        z-index: 3;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+      }
+      .slick-next:before{
+        content: "";
+        background-image: url('images/arrow_right.png');
+        background-size: 60px 60px;
+        display: block;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        z-index: 3;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+      }
     }
   }
 
